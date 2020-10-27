@@ -106,15 +106,15 @@ void push(pilha * p, char ch){
 }
 
 char pop(pilha * p){
-    char retorno;
+    char letra;
     if (empty(p))
     {
         printf("\nPilha vazia");
     }
     else
     {
-        retorno = p->str[p->top--];
-        return retorno;
+        letra = p->str[p->top--];
+        return letra;
     }
 }
 
