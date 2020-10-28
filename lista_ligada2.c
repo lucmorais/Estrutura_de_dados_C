@@ -23,8 +23,6 @@ registro *aloca_registro();
 lista *aloca_lista();
 void incluir_ordenado(lista *l, int x);
 void mostrar(lista *l);
-void remove_na_lista(lista *l, int x);
-void remove_todos_na_lista(lista *l, int x);
 
 int main()
 {
